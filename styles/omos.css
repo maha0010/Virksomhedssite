@@ -103,5 +103,8 @@ nav {
     font-size: 24px;
   }
 }
-
 /* menu */
+
+.overskrift_om_os {
+  font-family: "Six Caps", sans-serif;
+}
