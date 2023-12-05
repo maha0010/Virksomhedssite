@@ -1,3 +1,4 @@
+// menu// menu// menu// menu// menu// menu// menu// menu// menu// menu// menu
 const burger = document.querySelector(".burger");
 const nav = document.querySelector("nav");
 const menu = document.querySelector(".menu");
@@ -14,3 +15,4 @@ links.forEach((link) => {
     nav.classList.remove("active");
   });
 });
+// menu// menu// menu// menu// menu// menu// menu// menu// menu// menu// menu
