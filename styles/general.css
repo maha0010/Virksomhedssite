@@ -1,7 +1,3 @@
-p {
-  font-family: "Caudex", serif;
-}
-
 /* RESET */
 * {
   margin: 0;
@@ -100,4 +96,12 @@ nav {
     font-size: 24px;
   }
 }
-/* menu */
+
+.logo_css img {
+  height: 100%;
+  width: 15%;
+}
+
+p {
+  font-family: "Caudex", serif;
+}
