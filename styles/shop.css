@@ -33,6 +33,15 @@
   margin-top: 10%;
 }
 
+#fad_tekst1,
+#fad_tekst2,
+#fad_tekst3,
+#fad_tekst4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #grid_fad_billeder {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
