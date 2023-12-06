@@ -1,1 +1,55 @@
+#hero_shop img {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+}
 
+#toitaske_billede1 img,
+#toitaske_billede2 img,
+#toitaske_billede3 img,
+#toitaske_billede4 img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+#grid_toitaske_billeder {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#fad_billede1 img,
+#fad_billede2 img,
+#fad_billede3 img,
+#fad_billede4 img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+#grid_fad_billeder {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#pude_billede1 img,
+#pude_billede2 img,
+#pude_billede3 img,
+#pude_billede4 img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+#grid_puder_billeder {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
