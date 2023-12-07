@@ -5,6 +5,22 @@
   box-sizing: border-box;
 }
 
+/* footer */
+footer {
+  display: grid;
+  padding: 20px;
+  margin-top: 5%;
+  background-color: #ffffffd5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  grid-template-columns: repeat(3, auto);
+}
+
+.logo_footer img {
+  width: 20%;
+  height: 20%;
+  float: right;
+}
+
 /* menu */
 header {
   display: grid;
