@@ -1,1 +1,201 @@
+h1 {
+  font-family: "Six Caps", sans-serif;
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 2%;
+  color: #4a484b;
+}
 
+p {
+  font-family: "Caudex", serif;
+  color: #4a484b;
+}
+
+#hero_shop img {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#tilmeld {
+  font-family: "Caudex", serif;
+  font-size: 1.5rem;
+  font-weight: 50;
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 1%;
+}
+
+#under_tilmeld {
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+/* #form-tilmeld {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+label,
+button,
+#form-tilmeld,
+input {
+  font-family: "Caudex", serif;
+  /* align-items: center; */
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+#first-form {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+button {
+  background-color: #4a484b;
+  color: white;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  cursor: pointer;
+  border: #4a484b;
+}
+
+footer {
+  display: grid;
+  padding: 20px;
+  margin-top: 5%;
+  background-color: #ffffffd5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  grid-template-columns: repeat(3, auto);
+}
+
+.logo_footer img {
+  width: 20%;
+  height: 20%;
+  float: right;
+}
+
+/* toitaske---------------------------------------------------------- */
+#toitaske_billede1 img,
+#toitaske_billede2 img,
+#toitaske_billede3 img,
+#toitaske_billede4 img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30%;
+  cursor: pointer;
+}
+
+#toi_tekst1,
+#toi_tekst2,
+#toi_tekst3,
+#toi_tekst4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+}
+
+#toi_titel1,
+#toi_titel2,
+#toi_titel3,
+#toi_titel4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#grid_toitaske_billeder {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* fad--------------------------------------------------------------- */
+#fad_billede1 img,
+#fad_billede2 img,
+#fad_billede3 img,
+#fad_billede4 img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  cursor: pointer;
+}
+
+#fad_tekst1,
+#fad_tekst2,
+#fad_tekst3,
+#fad_tekst4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+}
+
+#fad_titel1,
+#fad_titel2,
+#fad_titel3,
+#fad_titel4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#grid_fad_billeder {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* pude-------------------------------------------------------------- */
+#pude_billede1 img,
+#pude_billede2 img,
+#pude_billede3 img,
+#pude_billede4 img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  cursor: pointer;
+}
+
+#pude_tekst1,
+#pude_tekst2,
+#pude_tekst3,
+#pude_tekst4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+}
+
+#pude_titel1,
+#pude_titel2,
+#pude_titel3,
+#pude_titel4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#grid_puder_billeder {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
