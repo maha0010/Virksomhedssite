@@ -5,9 +5,9 @@
 }
 .overskrift_om_os {
   font-family: "Six Caps", sans-serif;
-  font-size: 13cqw;
+  font-size: 10cqw;
   padding-top: 3%;
-  padding-left: 33%;
+  text-align: center;
   grid-row: 1;
   grid-column: 2 / span 2;
 }
