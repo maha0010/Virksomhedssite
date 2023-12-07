@@ -7,12 +7,11 @@
 
 /* menu */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
   padding: 20px;
   background-color: #fff9f9;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  grid-template-columns: repeat(2, auto);
 }
 .logo img {
   width: 50px;
@@ -21,6 +20,8 @@ header {
 nav {
   display: flex;
   align-items: center;
+  font-family: "Caudex", serif;
+  color: #4a484b;
 }
 .menu {
   display: flex;
