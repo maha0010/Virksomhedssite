@@ -10,6 +10,24 @@ h3 {
   color: white;
   font-family: "Six Caps", sans-serif;
 }
+
+h2 {
+  font-family: "Six Caps", sans-serif;
+  font-size: 2.5rem;
+  color: #4a484b;
+  font-weight: 100;
+}
+.kontakt {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+p {
+  font-size: 1rem;
+  font-family: "Caudex", serif;
+}
+
+/* grid_1_1 placering*/
 .grid_1_1 img {
   display: inline-block;
   cursor: pointer;
@@ -57,4 +75,32 @@ h3 {
 .tekst5,
 .tekst6 {
   place-self: center;
+}
+
+/*shop-grid*/
+.nyheder,
+.saripuder2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.nyhed {
+  background-color: #f2ba56;
+  color: white;
+  text-transform: uppercase;
+  width: 40%;
+}
+
+.udsolgt {
+  background-color: #bf506e;
+  color: white;
+  text-transform: uppercase;
+  width: 40%;
+}
+
+.udsalg {
+  background-color: #f9ccaf;
+  color: white;
+  text-transform: uppercase;
+  width: 40%;
 }
