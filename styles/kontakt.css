@@ -1,0 +1,18 @@
+label,
+input,
+textarea,
+select,
+button {
+  display: block;
+}
+
+.kontaktbillede img {
+  rotate: 90deg;
+  height: 10%;
+  width: auto;
+}
+.grid1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
