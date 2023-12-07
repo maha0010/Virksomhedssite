@@ -20,6 +20,8 @@ header {
 nav {
   display: flex;
   align-items: center;
+  font-family: "Caudex", serif;
+  color: #4a484b;
 }
 .menu {
   display: flex;
