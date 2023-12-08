@@ -57,9 +57,12 @@ nav {
   text-decoration: none;
   transition: color 0.3s;
   text-align: end;
+  text-transform: uppercase;
+  font-size: 0.9cqw;
 }
 .menu a:hover {
-  color: #f2ba52;
+  line-height: 2%;
+  border-bottom: 1px solid black;
 }
 .burger {
   width: 30px;
@@ -115,7 +118,7 @@ nav {
 
 .logo_css img {
   height: 100%;
-  width: 15%;
+  width: 10%;
 }
 h1 {
   font-family: "Six Caps", sans-serif;

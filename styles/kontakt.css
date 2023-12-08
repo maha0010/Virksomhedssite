@@ -5,14 +5,16 @@ select,
 button {
   display: block;
 }
-
 .kontaktbillede img {
   rotate: 90deg;
-  height: 10%;
-  width: auto;
+  width: 100%;
 }
 .grid1_1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  gap: 0px;
+  margin-top: 10%;
+}
+.forms {
+  width: 100%;
 }
