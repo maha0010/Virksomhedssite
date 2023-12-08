@@ -4,11 +4,11 @@
   text-align: center;
   color: #40211a;
 }
-h3 {
-  font-size: 3rem;
-  font-weight: 100;
+
+.h3 {
   color: white;
-  font-family: "Six Caps", sans-serif;
+  font-weight: 100;
+  text-align: center;
 }
 
 h2 {
