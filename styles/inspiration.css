@@ -1,7 +1,7 @@
 .inspiration_wrapper1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   gap: 10px;
   margin: 60px;
 }
@@ -13,20 +13,34 @@
   grid-row: 1;
   grid-column: 2 / span 4;
 }
+.breadtxt_inspiration {
+  padding-top: 30%;
+  text-align: center;
+  grid-row: 1;
+  grid-column: 2 / span 4;
+}
 .tre_billeder_inspiration1 {
-  grid-row: 2 / span 2;
+  grid-row: 2 / span 1;
   grid-column: 1 / span 2;
   width: 100%;
 }
 .tre_billeder_inspiration2 {
-  grid-row: 2 / span 2;
+  grid-row: 2 / span 1;
   grid-column: 3 / span 2;
   width: 100%;
 }
 .tre_billeder_inspiration3 {
-  grid-row: 2 / span 2;
+  grid-row: 2 / span 1;
   grid-column: 5 / span 2;
   width: 100%;
+}
+
+.inspiration_wrapper2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  margin: 60px;
 }
 
 img {
