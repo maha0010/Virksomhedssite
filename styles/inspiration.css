@@ -1,0 +1,40 @@
+.inspiration_wrapper1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.overskrift_inspiration {
+  font-family: "Six Caps", sans-serif;
+  font-size: 10cqw;
+  padding-top: 3%;
+  text-align: center;
+  grid-row: 1;
+  grid-column: 2 / span 2;
+}
+.tre_billeder_inspiration1 {
+  grid-row: 2 / span 2;
+  grid-column: 3 / span 2;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15%;
+}
+.tre_billeder_inspiration2 {
+  grid-row: 2 / span 2;
+  grid-column: 3 / span 2;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15%;
+}
+.tre_billeder_inspiration3 {
+  grid-row: 2 / span 2;
+  grid-column: 5 / span 2;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15%;
+}

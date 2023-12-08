@@ -136,6 +136,7 @@ p {
   font-family: "Caudex", serif;
   color: #4a484b;
 }
-body {
+body,
+footer {
   background-color: #fff9f9;
 }
