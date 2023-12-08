@@ -61,7 +61,8 @@ nav {
   font-size: 0.9cqw;
 }
 .menu a:hover {
-  color: #f2ba52;
+  line-height: 2%;
+  border-bottom: 1px solid black;
 }
 .burger {
   width: 30px;
