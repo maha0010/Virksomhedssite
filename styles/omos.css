@@ -92,6 +92,8 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 5px;
+  padding-top: 5%;
+  margin: 10px;
 }
 .insta_billede1 {
   grid-column: 1;
@@ -113,6 +115,7 @@
   grid-column: 2;
   grid-row: 1;
   position: relative;
+  padding-bottom: 106%;
 }
 .insta_billede2 a,
 .insta_billede2 img {
@@ -188,6 +191,102 @@
   top: 0;
   left: 0;
   z-index: 1;
+}
+.insta_billede7 {
+  grid-column: 1;
+  grid-row: 2;
+  position: relative;
+}
+.insta_billede7 a,
+.insta_billede7 img {
+  position: absolute;
+  z-index: 2;
+}
+.insta_billede7 img.under_billede7 {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.insta_billede8 {
+  grid-column: 2;
+  grid-row: 2;
+  position: relative;
+}
+.insta_billede8 a,
+.insta_billede8 img {
+  position: absolute;
+  z-index: 2;
+}
+.insta_billede8 img.under_billede8 {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.insta_billede9 {
+  grid-column: 3;
+  grid-row: 2;
+  position: relative;
+}
+.insta_billede9 a,
+.insta_billede9 img {
+  position: absolute;
+  z-index: 2;
+}
+.insta_billede9 img.under_billede9 {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.insta_billede10 {
+  grid-column: 4;
+  grid-row: 2;
+  position: relative;
+}
+.insta_billede10 a,
+.insta_billede10 img {
+  position: absolute;
+  z-index: 2;
+}
+.insta_billede10 img.under_billede10 {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.insta_billede11 {
+  grid-column: 5;
+  grid-row: 2;
+  position: relative;
+}
+.insta_billede11 a,
+.insta_billede11 img {
+  position: absolute;
+  z-index: 2;
+}
+.insta_billede11 img.under_billede11 {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.insta_billede12 {
+  grid-column: 6;
+  grid-row: 2;
+  position: relative;
+}
+.insta_billede12 a,
+.insta_billede12 img {
+  position: absolute;
+  z-index: 4;
+}
+.insta_billede12 img.under_billede12 {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 3;
 }
 
 .insta_overlay {
