@@ -13,7 +13,7 @@
 
 h2 {
   font-family: "Six Caps", sans-serif;
-  font-size: 2.5rem;
+  font-size: 2.5cqw;
   color: #4a484b;
   font-weight: 100;
   padding-top: 8%;
@@ -21,17 +21,40 @@ h2 {
 }
 .kontakt {
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 4cqw;
 }
 .kontakttekst {
   margin-left: 300px;
   margin-right: 300px;
   padding-top: 30px;
   text-align: center;
+  opacity: 70%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kontakt_knap {
+  border: 0.5px solid grey;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #40211a;
+  background-color: white;
+  padding: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 30px;
+}
+
+.kontakt_knap:hover {
+  transform: scale(1.1);
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.1cqw;
   font-family: "Caudex", serif;
 }
 
