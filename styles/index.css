@@ -47,6 +47,8 @@ h2 {
   padding-left: 20px;
   padding-right: 20px;
   margin: 30px;
+  font-family: "Caudex", serif;
+  font-size: 1cqw;
 }
 
 .kontakt_knap:hover {
