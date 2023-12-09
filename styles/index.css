@@ -90,12 +90,11 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   margin-left: 60px;
+  gap: 20px;
 }
-.saripuder2 img {
+.saripuder2 img,
+.nyheder img {
   width: 80%;
-}
-.pude3 img {
-  bottom: 20%;
 }
 
 /*mærkater shop*/
