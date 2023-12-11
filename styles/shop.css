@@ -27,6 +27,7 @@ p {
   text-align: center;
   margin-top: 8%;
   margin-bottom: 1%;
+  color: #40211a;
 }
 
 #under_tilmeld {
@@ -179,4 +180,38 @@ input {
 #grid_puder_billeder {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+}
+
+/*mærkater shop--------------------------------------------------------*/
+.nyhed_shop {
+  background-color: #f2ba56;
+  color: white;
+  text-transform: uppercase;
+  width: 30%;
+  font-size: 0.8cqw;
+  padding-left: 8px;
+  margin-bottom: 12px;
+  margin-left: 25%;
+}
+
+.udsolgt_shop {
+  background-color: #bf506e;
+  color: white;
+  text-transform: uppercase;
+  width: 30%;
+  font-size: 0.8cqw;
+  padding-left: 8px;
+  margin-bottom: 12px;
+  margin-left: 25%;
+}
+
+.udsalg_shop {
+  background-color: #f9ccaf;
+  color: white;
+  text-transform: uppercase;
+  width: 30%;
+  font-size: 0.8cqw;
+  padding-left: 8px;
+  margin-bottom: 12px;
+  margin-left: 25%;
 }
