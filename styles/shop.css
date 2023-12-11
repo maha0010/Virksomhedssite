@@ -85,9 +85,10 @@ input {
 #toi_tekst3,
 #toi_tekst4 {
   display: block;
-  margin-left: auto;
+  margin-left: 25%;
   margin-right: auto;
   margin-bottom: 10%;
+  font-weight: bold;
 }
 
 #toi_titel1,
@@ -95,7 +96,7 @@ input {
 #toi_titel3,
 #toi_titel4 {
   display: block;
-  margin-left: auto;
+  margin-left: 25%;
   margin-right: auto;
 }
 
@@ -122,9 +123,10 @@ input {
 #fad_tekst3,
 #fad_tekst4 {
   display: block;
-  margin-left: auto;
+  margin-left: 25%;
   margin-right: auto;
   margin-bottom: 10%;
+  font-weight: bold;
 }
 
 #fad_titel1,
@@ -132,7 +134,7 @@ input {
 #fad_titel3,
 #fad_titel4 {
   display: block;
-  margin-left: auto;
+  margin-left: 25%;
   margin-right: auto;
 }
 
@@ -159,9 +161,10 @@ input {
 #pude_tekst3,
 #pude_tekst4 {
   display: block;
-  margin-left: auto;
+  margin-left: 25%;
   margin-right: auto;
   margin-bottom: 10%;
+  font-weight: bold;
 }
 
 #pude_titel1,
@@ -169,7 +172,7 @@ input {
 #pude_titel3,
 #pude_titel4 {
   display: block;
-  margin-left: auto;
+  margin-left: 25%;
   margin-right: auto;
 }
 
