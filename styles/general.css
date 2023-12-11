@@ -4,22 +4,6 @@
   box-sizing: border-box;
 }
 
-/* footer */
-footer {
-  display: grid;
-  padding: 20px;
-  margin-top: 5%;
-  background-color: #ffffffd5;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  grid-template-columns: repeat(3, auto);
-}
-
-.logo_footer img {
-  width: 20%;
-  height: 20%;
-  float: right;
-}
-
 /* menu */
 header {
   display: grid;
@@ -446,4 +430,56 @@ img {
   .insta_overlay:hover {
     opacity: 0.7;
   }
+}
+
+footer {
+  display: flex;
+  padding: 60px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+.column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+h4,
+ul,
+li {
+  color: #40211a;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 8px;
+  font-family: "Caudex", serif;
+  font-size: 1cqw;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icon {
+  margin-right: 20px;
+}
+
+.logo {
+  width: 60%;
+  margin-left: 50px;
+}
+.social-media,
+.payment-methods {
+  padding-top: 10%;
+}
+.abningstider,
+.cvr {
+  padding-top: 5%;
+}
+
+.social-icons img {
+  width: 150%;
+}
+.tlfnummer,
+.mail {
+  text-decoration: underline;
 }
