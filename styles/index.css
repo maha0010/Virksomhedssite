@@ -116,8 +116,8 @@ p {
 .saripuder2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 5%;
+  margin-right: 5%;
   gap: 20px;
   cursor: pointer;
 }
@@ -125,7 +125,8 @@ p {
 .nyheder {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  margin-left: 60px;
+  margin-left: 5%;
+  margin-right: 5%;
   gap: 20px;
   cursor: pointer;
 }
