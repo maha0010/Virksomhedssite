@@ -20,55 +20,6 @@ p {
   margin-bottom: 2%;
 }
 
-#tilmeld {
-  font-family: "Caudex", serif;
-  font-size: 1.5rem;
-  font-weight: 50;
-  text-align: center;
-  margin-top: 8%;
-  margin-bottom: 1%;
-  color: #40211a;
-}
-
-#under_tilmeld {
-  text-align: center;
-  margin-bottom: 1%;
-}
-
-label,
-button,
-#form-tilmeld,
-input {
-  font-family: "Caudex", serif;
-}
-
-#first-form {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 7%;
-}
-#form-tilmeld {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-button {
-  background-color: #40211a;
-  color: white;
-  padding: 8px 12px;
-  cursor: pointer;
-  border: 2px solid #40211a;
-}
-
-input {
-  padding-left: 3%;
-  padding-right: 1%;
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-
 /* toitaske---------------------------------------------------------- */
 #toitaske_billede1 img,
 #toitaske_billede2 img,
