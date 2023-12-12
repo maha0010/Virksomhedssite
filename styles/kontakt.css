@@ -97,10 +97,6 @@ textarea {
   .kontaktbillede img {
     display: none;
   }
-  main {
-    width: 80vw;
-    margin: 0 auto;
-  }
   .kontaktinfo {
     flex-direction: column;
   }
