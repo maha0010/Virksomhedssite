@@ -568,3 +568,25 @@ li {
 .paymenticons img {
   scale: 60%;
 }
+/* footermobil */
+@media (max-width: 800px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100vw;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  footer li {
+    font-size: 2cqw;
+    margin-bottom: 0;
+  }
+  h4 {
+    font-size: 2cqw;
+    margin-top: 0;
+  }
+  .logo {
+    width: 100%;
+  }
+}
