@@ -33,6 +33,10 @@ p {
   margin-top: 30%;
   cursor: pointer;
 }
+#toitaske_billede5 {
+  margin-top: -9%;
+  margin-bottom: 9%;
+}
 
 #toi_tekst1,
 #toi_tekst2,
