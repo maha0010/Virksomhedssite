@@ -42,11 +42,19 @@
   grid-column: 5 / span 2;
   width: 100%;
 }
+.krukker {
+  padding-top: 1%;
+}
 .fed_skrift_stue_inspi {
   padding-top: 2%;
-  font-weight: bold;
+  font-weight: 1000;
+
+  text-transform: uppercase;
 }
 
+.smaa_tekster {
+  opacity: 80%;
+}
 img {
   width: 100%;
 }
