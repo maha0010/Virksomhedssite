@@ -43,8 +43,8 @@ h2 {
   border: 0.5px solid grey;
   text-decoration: none;
   text-transform: uppercase;
-  color: #40211a;
-  background-color: white;
+  background-color: #40211a;
+  color: white;
   padding: 4px;
   padding-left: 20px;
   padding-right: 20px;
@@ -72,9 +72,9 @@ p {
 .grid_1_1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 3%;
-  margin-left: 15%;
-  margin-right: 15%;
+  gap: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .saripuder {
@@ -116,8 +116,8 @@ p {
 .saripuder2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 5%;
+  margin-right: 5%;
   gap: 20px;
   cursor: pointer;
 }
@@ -125,7 +125,8 @@ p {
 .nyheder {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  margin-left: 60px;
+  margin-left: 5%;
+  margin-right: 5%;
   gap: 20px;
   cursor: pointer;
 }
@@ -189,4 +190,61 @@ sari .saripuder2 img {
   font-weight: bold;
 }
 @media (max-width: 800px) {
+}
+
+/* nyhedsbrev */
+
+#tilmeld {
+  font-family: "Caudex", serif;
+  font-size: 2cqw;
+  font-weight: 50;
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 1%;
+  color: #40211a;
+}
+
+#under_tilmeld {
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+label,
+button,
+#form-tilmeld,
+input {
+  font-family: "Caudex", serif;
+}
+
+#first-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#form-tilmeld {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+button {
+  background-color: #40211a;
+  color: white;
+  padding: 8px 12px;
+  cursor: pointer;
+  border: 2px solid #40211a;
+}
+
+input {
+  padding-left: 3%;
+  padding-right: 1%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.tekst_under_grid {
+  text-align: center;
+  padding-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
 }

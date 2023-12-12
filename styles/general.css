@@ -107,7 +107,7 @@ nav {
 h1 {
   font-family: "Six Caps", sans-serif;
   color: #40211a;
-  font-size: 10cqw;
+  font-size: 8cqw;
 }
 h2 {
   font-family: "Six Caps", sans-serif;
@@ -431,6 +431,58 @@ img {
     opacity: 0.7;
   }
 }
+
+/* form-tilmeld */
+#tilmeld {
+  font-family: "Caudex", serif;
+  font-size: 1.5rem;
+  font-weight: 50;
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 1%;
+  color: #40211a;
+}
+
+#under_tilmeld {
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+label,
+button,
+#form-tilmeld,
+input {
+  font-family: "Caudex", serif;
+}
+
+#first-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7%;
+}
+#form-tilmeld {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+button {
+  background-color: #40211a;
+  color: white;
+  padding: 8px 12px;
+  cursor: pointer;
+  border: 2px solid #40211a;
+}
+
+input {
+  padding-left: 3%;
+  padding-right: 1%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/* footer */
 
 footer {
   display: flex;
