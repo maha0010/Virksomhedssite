@@ -43,8 +43,8 @@ h2 {
   border: 0.5px solid grey;
   text-decoration: none;
   text-transform: uppercase;
-  color: #40211a;
-  background-color: white;
+  background-color: #40211a;
+  color: white;
   padding: 4px;
   padding-left: 20px;
   padding-right: 20px;
@@ -240,4 +240,11 @@ input {
   padding-right: 1%;
   padding-top: 5%;
   padding-bottom: 5%;
+}
+
+.tekst_under_grid {
+  text-align: center;
+  padding-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
