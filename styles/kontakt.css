@@ -13,13 +13,16 @@ button {
   margin-top: 28%;
   scale: 85%;
 }
-.grid1_1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0px;
-  margin-left: 10%;
-  margin-right: 10%;
+@media (min-width: 800px) {
+  .grid1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
+
 .forms {
   width: 100%;
   margin-top: 5%;
@@ -30,6 +33,10 @@ p {
 h1 {
   margin-top: 5%;
   margin-bottom: 5%;
+}
+h2 {
+  text-align: center;
+  padding: 3%;
 }
 button {
   background-color: #4a484b;
@@ -46,6 +53,7 @@ button {
 label {
   font-family: "Caudex", serif;
   color: #40211a;
+  margin-left: 2%;
 }
 .input2 {
   padding-left: 1%;
@@ -55,17 +63,48 @@ label {
   box-sizing: border-box;
   border: 0.5px solid #40211a;
   border-radius: 2px;
+  width: 70%;
 }
 textarea {
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   box-sizing: border-box;
   border: 0.5px solid #40211a;
+  border-radius: 2px;
+  width: 70%;
 }
 .kontaktinfo {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 15%;
+  margin-bottom: 15%;
 }
-.billede {
-  scale: 20%;
+.kontaktinfo p {
+  text-align: center;
+}
+.instagram_tekst {
+  margin-bottom: 0;
+}
+.billede img {
+  height: 60px;
+}
+@media (max-width: 800px) {
+  .kontaktbillede img {
+    display: none;
+  }
+  main {
+    width: 80vw;
+    margin: 0 auto;
+  }
+  .kontaktinfo {
+    flex-direction: column;
+  }
+  h1 {
+    text-align: center;
+  }
 }
