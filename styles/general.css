@@ -19,21 +19,26 @@ header {
 nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   font-family: "Caudex", serif;
   color: #40211a;
 }
+
 .menu {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
 }
+
 .menu li {
   margin-right: 20px;
 }
+
 .menu li:last-child {
   margin-right: 0;
 }
+
 .menu a {
   display: block;
   padding: 10px;
@@ -44,10 +49,29 @@ nav {
   text-transform: uppercase;
   font-size: 0.9cqw;
 }
+
 .menu a:hover {
   line-height: 100%;
   border-bottom: 1.5px solid #40211a;
 }
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.icon-container i {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #40211a;
+  margin-bottom: 10%;
+}
+.icon-container i img {
+  width: 18px;
+  height: 18px;
+}
+
 .burger {
   width: 30px;
   height: 20px;
