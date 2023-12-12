@@ -48,7 +48,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 5%;
   margin-left: 5%;
-  padding-bottom: 10%;
+  margin-right: 5%;
 }
 
 .h3_inspiration_fire_billeder1 {
@@ -93,7 +93,7 @@
 .fire_billeder_inspiration3 {
   grid-row: 2 / span 1;
   grid-column: 3 / span 2;
-  width: 49%;
+  width: 100%;
 }
 
 img {
