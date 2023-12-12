@@ -13,8 +13,8 @@
   grid-row: 1 / span 4;
   grid-column: 1 / span 4;
   padding-top: 13%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 .om_os_wrapper2 {
@@ -49,6 +49,7 @@
   gap: 10px;
   margin-left: 10%;
   margin-right: 10%;
+  margin-top: 5%;
 }
 .hvem_er_vi_breadtxt2 {
   grid-row: 1 / span 2;
@@ -70,6 +71,7 @@
   margin-right: 10%;
   padding-bottom: 5%;
   padding-top: 5%;
+  margin-top: 5%;
 }
 .hvem_er_vi_breadtxt3 {
   grid-row: 1 / span 2;
