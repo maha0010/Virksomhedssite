@@ -96,21 +96,6 @@
   width: 49%;
 }
 
-.h3_inspiration_fire_billeder4 {
-  grid-row: 1;
-  grid-column: 4;
-}
-.breadtxt_inspi_wrapper2_4 {
-  grid-row: 1;
-  grid-column: 4;
-  padding-top: 20%;
-}
-.fire_billeder_inspiration4 {
-  grid-row: 2 / span 1;
-  grid-column: 4 / span 2;
-  width: 49%;
-}
-
 img {
   width: 100%;
 }
