@@ -65,6 +65,10 @@
   grid-column: 1 / span 2;
   width: 49%;
 }
+.fed_skrift_stue_inspi {
+  padding-top: 2%;
+  font-weight: bold;
+}
 
 .h3_inspiration_fire_billeder2 {
   grid-row: 1;
