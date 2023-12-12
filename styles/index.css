@@ -13,7 +13,6 @@
 
 h2 {
   font-family: "Six Caps", sans-serif;
-  font-size: 2.5cqw;
   color: #4a484b;
   font-weight: 100;
   padding-top: 8%;
@@ -50,15 +49,16 @@ h2 {
   padding-right: 20px;
   margin: 30px;
   font-family: "Caudex", serif;
-  font-size: 1cqw;
+  font-size: 0.8rem;
 }
 
 .kontakt_knap:hover {
   transform: scale(1.1);
 }
 
-p {
-  font-size: 1.1cqw;
+.kontakttekst,
+.tekst_under_grid {
+  font-size: 1.1rem;
   font-family: "Caudex", serif;
 }
 
@@ -191,23 +191,10 @@ sari .saripuder2 img {
 }
 
 @media (max-width: 800px) {
-}
-
-/* nyhedsbrev */
-
-#tilmeld {
-  font-family: "Caudex", serif;
-  font-size: 2cqw;
-  font-weight: 50;
-  text-align: center;
-  margin-top: 8%;
-  margin-bottom: 1%;
-  color: #40211a;
-}
-
-#under_tilmeld {
-  text-align: center;
-  margin-bottom: 1%;
+  .grid_1_1 {
+    display: block;
+    width: 90vw;
+  }
 }
 
 label,
