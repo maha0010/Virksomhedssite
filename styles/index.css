@@ -72,9 +72,9 @@ p {
 .grid_1_1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 3%;
-  margin-left: 15%;
-  margin-right: 15%;
+  gap: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .saripuder {
@@ -227,11 +227,11 @@ input {
   margin-right: auto;
 }
 button {
-  background-color: #4a484b;
+  background-color: #40211a;
   color: white;
   padding: 8px 12px;
   cursor: pointer;
-  border: 2px solid #4a484b;
+  border: 2px solid #40211a;
 }
 
 input {
