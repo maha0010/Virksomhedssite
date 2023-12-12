@@ -60,3 +60,12 @@ textarea {
   box-sizing: border-box;
   border: 0.5px solid #40211a;
 }
+.kontaktinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+}
+.billede {
+  scale: 20%;
+}
