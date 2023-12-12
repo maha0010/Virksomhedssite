@@ -14,21 +14,22 @@ p {
 #hero_shop img {
   width: 80%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 2%;
   margin-bottom: 2%;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 /* toitaske---------------------------------------------------------- */
 #toitaske_billede1 img,
 #toitaske_billede2 img,
 #toitaske_billede3 img,
-#toitaske_billede4 img {
+#toitaske_billede4 img,
+#toitaske_billede5 img {
   width: 50%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 30%;
   cursor: pointer;
 }
@@ -36,9 +37,10 @@ p {
 #toi_tekst1,
 #toi_tekst2,
 #toi_tekst3,
-#toi_tekst4 {
+#toi_tekst4,
+#toi_tekst5 {
   display: block;
-  margin-left: 25%;
+  margin-left: 10%;
   margin-right: auto;
   margin-bottom: 10%;
   font-weight: bold;
@@ -47,36 +49,43 @@ p {
 #toi_titel1,
 #toi_titel2,
 #toi_titel3,
-#toi_titel4 {
+#toi_titel4,
+#toi_titel5 {
   display: block;
-  margin-left: 25%;
+  margin-left: 10%;
   margin-right: auto;
 }
 
 #grid_toitaske_billeder {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
 
 /* fad--------------------------------------------------------------- */
 #fad_billede1 img,
 #fad_billede2 img,
 #fad_billede3 img,
-#fad_billede4 img {
+#fad_billede4 img,
+#fad_billede5 img {
   width: 50%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 10%;
   cursor: pointer;
+  margin-bottom: 9%;
+}
+#fad_billede5 {
+  width: 84%;
 }
 
 #fad_tekst1,
 #fad_tekst2,
 #fad_tekst3,
-#fad_tekst4 {
+#fad_tekst4,
+#fad_tekst5 {
   display: block;
-  margin-left: 25%;
+  margin-left: 10%;
   margin-right: auto;
   margin-bottom: 10%;
   font-weight: bold;
@@ -85,26 +94,28 @@ p {
 #fad_titel1,
 #fad_titel2,
 #fad_titel3,
-#fad_titel4 {
+#fad_titel4,
+#fad_titel5 {
   display: block;
-  margin-left: 25%;
+  margin-left: 10%;
   margin-right: auto;
 }
 
 #grid_fad_billeder {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
 
 /* pude-------------------------------------------------------------- */
 #pude_billede1 img,
 #pude_billede2 img,
 #pude_billede3 img,
-#pude_billede4 img {
+#pude_billede4 img,
+#pude_billede5 img {
   width: 50%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 10%;
   cursor: pointer;
 }
@@ -112,9 +123,10 @@ p {
 #pude_tekst1,
 #pude_tekst2,
 #pude_tekst3,
-#pude_tekst4 {
+#pude_tekst4,
+#pude_tekst5 {
   display: block;
-  margin-left: 25%;
+  margin-left: 10%;
   margin-right: auto;
   margin-bottom: 10%;
   font-weight: bold;
@@ -123,15 +135,16 @@ p {
 #pude_titel1,
 #pude_titel2,
 #pude_titel3,
-#pude_titel4 {
+#pude_titel4,
+#pude_titel5 {
   display: block;
-  margin-left: 25%;
+  margin-left: 10%;
   margin-right: auto;
 }
 
 #grid_puder_billeder {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
 
 /*mærkater shop--------------------------------------------------------*/
@@ -143,7 +156,7 @@ p {
   font-size: 0.8cqw;
   padding-left: 8px;
   margin-bottom: 12px;
-  margin-left: 25%;
+  margin-left: 10%;
 }
 
 .udsolgt_shop {
@@ -154,7 +167,7 @@ p {
   font-size: 0.8cqw;
   padding-left: 8px;
   margin-bottom: 12px;
-  margin-left: 25%;
+  margin-left: 10%;
 }
 
 .udsalg_shop {
@@ -165,5 +178,5 @@ p {
   font-size: 0.8cqw;
   padding-left: 8px;
   margin-bottom: 12px;
-  margin-left: 25%;
+  margin-left: 10%;
 }
