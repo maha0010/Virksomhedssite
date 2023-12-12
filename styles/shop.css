@@ -10,7 +10,9 @@ p {
   font-family: "Caudex", serif;
   color: #40211a;
 }
-
+h2 {
+  margin-top: 2%;
+}
 #hero_shop img {
   width: 98%;
   display: block;
@@ -31,7 +33,7 @@ p {
   font-size: 2cqw;
   color: #4a484b;
   font-weight: 100;
-  padding-top: 8%;
+  padding-top: 2%;
   margin-left: 7%;
 }
 
@@ -44,7 +46,7 @@ p {
   display: block;
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 30%;
+  margin-top: 10%;
   cursor: pointer;
 }
 #toitaske_billede5 {
@@ -181,7 +183,7 @@ p {
   display: block;
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 30%;
+  margin-top: 10%;
   cursor: pointer;
   margin-bottom: 10%;
 }
@@ -225,7 +227,7 @@ p {
   display: block;
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 30%;
+  margin-top: 10%;
   cursor: pointer;
   margin-bottom: 10%;
 }
