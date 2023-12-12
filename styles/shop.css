@@ -319,3 +319,15 @@ h2 {
   font-size: 18px;
   margin: 0 10px;
 }
+
+/* topline----------------------------------------------------------------- */
+#grid_top_line_shop {
+  margin-left: 7%;
+  margin-top: 7%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#fremhaevet {
+  margin-right: 5%;
+}
