@@ -42,60 +42,9 @@
   grid-column: 5 / span 2;
   width: 100%;
 }
-
-.inspiration_wrapper2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-bottom: 10%;
-}
-
-.h3_inspiration_fire_billeder1 {
-  grid-row: 1;
-  grid-column: 1;
-}
-.breadtxt_inspi_wrapper2_1 {
-  grid-row: 1;
-  grid-column: 1;
-}
-.fire_billeder_inspiration1 {
-  grid-row: 2 / span 1;
-  grid-column: 1 / span 2;
-  width: 49%;
-}
 .fed_skrift_stue_inspi {
   padding-top: 2%;
   font-weight: bold;
-}
-
-.h3_inspiration_fire_billeder2 {
-  grid-row: 1;
-  grid-column: 2;
-}
-.breadtxt_inspi_wrapper2_2 {
-  grid-row: 1;
-  grid-column: 2;
-}
-.fire_billeder_inspiration2 {
-  grid-row: 2 / span 1;
-  grid-column: 2 / span 2;
-  width: 49%;
-}
-
-.h3_inspiration_fire_billeder3 {
-  grid-row: 1;
-  grid-column: 3;
-}
-.breadtxt_inspi_wrapper2_3 {
-  grid-row: 1;
-  grid-column: 3;
-}
-.fire_billeder_inspiration3 {
-  grid-row: 2 / span 1;
-  grid-column: 3 / span 2;
-  width: 100%;
 }
 
 img {
