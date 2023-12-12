@@ -17,7 +17,7 @@ h2 {
   color: #4a484b;
   font-weight: 100;
   padding-top: 8%;
-  margin-left: 60px;
+  margin-left: 5%;
 }
 
 .kontakt {
@@ -189,6 +189,7 @@ sari .saripuder2 img {
 .pris {
   font-weight: bold;
 }
+
 @media (max-width: 800px) {
 }
 
