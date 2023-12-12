@@ -3,17 +3,17 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 10px;
-  margin: 60px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .overskrift_inspiration {
   font-family: "Six Caps", sans-serif;
-  font-size: 10cqw;
   text-align: center;
   grid-row: 1;
   grid-column: 2 / span 4;
 }
 .overskrift_breadtxt_inspiration {
-  padding-top: 25%;
+  padding-top: 20%;
   font-size: 3cqw;
   text-align: center;
   grid-row: 1;
@@ -21,7 +21,7 @@
   padding-bottom: 5%;
 }
 .breadtxt_inspiration {
-  padding-top: 40%;
+  padding-top: 27%;
   text-align: center;
   grid-row: 1;
   grid-column: 2 / span 4;
