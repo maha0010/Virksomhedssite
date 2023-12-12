@@ -21,6 +21,20 @@ p {
 }
 
 /* toitaske---------------------------------------------------------- */
+
+#overskrift1_toitasker,
+#overskrift2_fad,
+#overskrift3_puder,
+#overskrift4_sari,
+#overskrift5_unika {
+  font-family: "Six Caps", sans-serif;
+  font-size: 2cqw;
+  color: #4a484b;
+  font-weight: 100;
+  padding-top: 8%;
+  margin-left: 7%;
+}
+
 #toitaske_billede1 img,
 #toitaske_billede2 img,
 #toitaske_billede3 img,
@@ -151,6 +165,94 @@ p {
 }
 
 #grid_puder_billeder {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-left: 5%;
+  margin-right: 5;
+}
+
+/* sari---------------------------------------------------------- */
+#sari_billede1 img,
+#sari_billede2 img,
+#sari_billede3 img,
+#sari_billede4 img,
+#sari_billede5 img {
+  width: 50%;
+  display: block;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 30%;
+  cursor: pointer;
+  margin-bottom: 10%;
+}
+
+#sari_tekst1,
+#sari_tekst2,
+#sari_tekst3,
+#sari_tekst4,
+#sari_tekst5 {
+  display: block;
+  margin-left: 10%;
+  margin-right: auto;
+  margin-bottom: 10%;
+  font-weight: bold;
+}
+
+#sari_titel1,
+#sari_titel2,
+#sari_titel3,
+#sari_titel4,
+#sari_titel5 {
+  display: block;
+  margin-left: 10%;
+  margin-right: auto;
+}
+
+#grid_sari_billeder {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-left: 5%;
+  margin-right: 5;
+}
+
+/* unika---------------------------------------------------------- */
+#unika_billede1 img,
+#unika_billede2 img,
+#unika_billede3 img,
+#unika_billede4 img,
+#unika_billede5 img {
+  width: 50%;
+  display: block;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 30%;
+  cursor: pointer;
+  margin-bottom: 10%;
+}
+
+#unika_tekst1,
+#unika_tekst2,
+#unika_tekst3,
+#unika_tekst4,
+#unika_tekst5 {
+  display: block;
+  margin-left: 10%;
+  margin-right: auto;
+  margin-bottom: 10%;
+  font-weight: bold;
+}
+
+#unika_titel1,
+#unika_titel2,
+#unika_titel3,
+#unika_titel4,
+#unika_titel5 {
+  display: block;
+  margin-left: 10%;
+  margin-right: auto;
+}
+
+#grid_unika_billeder {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   margin-left: 5%;
