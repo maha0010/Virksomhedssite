@@ -110,4 +110,8 @@ textarea {
   h1 {
     text-align: center;
   }
+  main {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
