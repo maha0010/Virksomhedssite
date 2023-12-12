@@ -430,6 +430,10 @@ img {
   .insta_overlay:hover {
     opacity: 0.7;
   }
+  main {
+    width: 80vw;
+    margin: 0 auto;
+  }
 }
 
 /* form-tilmeld */
