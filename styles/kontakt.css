@@ -8,10 +8,9 @@ button {
 .kontaktbillede img {
   display: block;
   align-self: center;
-  rotate: 90deg;
   width: 100%;
-  margin-top: 28%;
   scale: 85%;
+  margin-top: 5%;
 }
 @media (min-width: 800px) {
   .grid1_1 {
@@ -22,7 +21,12 @@ button {
     margin-right: 10%;
   }
 }
-
+.form1,
+.form2,
+.form3,
+.form4 {
+  margin-bottom: 2%;
+}
 .forms {
   width: 100%;
   margin-top: 5%;
@@ -53,7 +57,7 @@ button {
 label {
   font-family: "Caudex", serif;
   color: #40211a;
-  margin-left: 2%;
+  margin-left: 1%;
 }
 .input2 {
   padding-left: 1%;
