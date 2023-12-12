@@ -87,6 +87,10 @@ textarea {
 .kontaktinfo p {
   text-align: center;
 }
+.kontaktinfo h2 {
+  font-family: "Caudex", serif;
+  text-transform: uppercase;
+}
 .instagram_tekst {
   margin-bottom: 0;
 }
