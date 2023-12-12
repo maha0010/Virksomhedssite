@@ -589,4 +589,8 @@ li {
   .logo {
     width: 100%;
   }
+  .logofooter {
+    width: 60%;
+    margin-top: 10%;
+  }
 }
