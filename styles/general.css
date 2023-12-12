@@ -562,3 +562,9 @@ li {
 .mail {
   text-decoration: underline;
 }
+.paymenticons {
+  display: flex;
+}
+.paymenticons img {
+  scale: 60%;
+}
