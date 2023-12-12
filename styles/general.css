@@ -122,6 +122,9 @@ nav {
   nav.active .menu a {
     font-size: 3cqw;
   }
+  .icon-container {
+    margin-right: 10%;
+  }
 }
 
 .logo_css img {
