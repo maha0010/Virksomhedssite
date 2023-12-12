@@ -10,7 +10,6 @@ button {
   align-self: center;
   width: 100%;
   scale: 85%;
-  margin-top: 5%;
 }
 @media (min-width: 800px) {
   .grid1_1 {
