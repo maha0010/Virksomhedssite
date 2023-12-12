@@ -14,7 +14,7 @@
 
 .h2 {
   font-family: "Six Caps", sans-serif;
-  color: #4a484b;
+  color: #40211a;
   font-weight: 100;
   padding-top: 8%;
   margin-left: 5%;
@@ -23,8 +23,9 @@
 
 .kontakt {
   text-align: center;
-  font-size: 4cqw;
+  font-size: 3.2cqw;
   margin-left: 45px;
+  padding-top: 8%;
 }
 .kontakttekst {
   margin-left: 20%;
