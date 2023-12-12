@@ -9,80 +9,82 @@
   grid-row: 1;
   grid-column: 2 / span 2;
 }
-.hero_billede_video {
+.hero_video_om_os {
   grid-row: 2 / span 4;
   grid-column: 1 / span 4;
+}
+#minVideo {
+  width: 100vw; /* 100% af viewportens bredde */
+  height: 50vh; /* 100% af viewportens højde */
+  object-fit: cover;
 }
 
 .om_os_wrapper2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 10px;
+  gap: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .hvem_er_vi {
   grid-row: 1 / span 2;
-  grid-column: 1 / span 2;
+  grid-column: 2 / span 2;
   text-align: center;
   padding-top: 10%;
-  font-size: 3rem;
+  font-size: 5cqw;
 }
 .hvem_er_vi_breadtxt {
   grid-row: 1 / span 2;
   grid-column: 1 / span 2;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 30%;
+  padding-top: 40%;
 }
 .hvem_er_vi_billede {
   grid-row: 1 / span 2;
   grid-column: 3 / span 2;
-  width: 60%;
   display: block;
   margin-left: auto;
-  margin-right: auto;
-  padding-top: 15%;
+  padding-top: 40%;
 }
 .om_os_wrapper3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
 }
 .hvem_er_vi_breadtxt2 {
   grid-row: 1 / span 2;
   grid-column: 3 / span 2;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 10%;
+  padding-top: 9%;
+  margin-left: 9%;
 }
 .hvem_er_vi_billede2 {
   grid-row: 1 / span 2;
   grid-column: 1 / span 2;
-  width: 85%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+
   padding-top: 10%;
 }
 .om_os_wrapper4 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  margin-top: 5%;
 }
 .hvem_er_vi_breadtxt3 {
   grid-row: 1 / span 2;
   grid-column: 1 / span 2;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 10%;
 }
 .hvem_er_vi_billede3 {
   grid-row: 2 / span 1;
   grid-column: 3 / span 2;
-  width: 85%;
+  width: 100%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 8%;
+  padding-left: 9%;
 }
 
 .instagram_grid {
@@ -301,96 +303,86 @@ img {
 @media (max-width: 800px) {
   .om_os_wrapper1 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
   }
   .overskrift_om_os {
     font-family: "Six Caps", sans-serif;
-    font-size: 15cqw;
-    padding-top: 5%;
     text-align: center;
     grid-row: 1;
-    grid-column: 2 / span 2;
+    grid-column: 1 / span 2;
+    font-size: 20cqw;
   }
-  .hero_billede_video {
-    grid-row: 2 / span 4;
-    grid-column: 1 / span 4;
-    width: 90%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  .hero_video_om_os {
+    grid-row: 2 / span 2;
+    grid-column: 1 / span 2;
   }
 
   .om_os_wrapper2 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   .hvem_er_vi {
-    grid-row: 1 / span 2;
-    grid-column: 2 / span 2;
+    grid-row: 1;
+    grid-column: 1 / span 3;
     text-align: center;
     padding-top: 10%;
-    font-size: 10cqw;
+    font-size: 11cqw;
   }
   .hvem_er_vi_breadtxt {
-    grid-row: 1 / span 2;
-    grid-column: 1 / span 2;
-    padding-left: 7%;
-    padding-top: 50%;
-    font-size: 3cqw;
+    grid-row: 1 / span 3;
+    grid-column: 1 / span 3;
   }
   .hvem_er_vi_billede {
-    grid-row: 1 / span 2;
-    grid-column: 3 / span 2;
-    width: 85%;
+    grid-row: 3 / span 1;
+    grid-column: 1 / span 3;
     display: block;
     margin-left: auto;
-    margin-right: auto;
-    padding-top: 50%;
+    padding-top: 14%;
   }
-
   .om_os_wrapper3 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 25%;
   }
   .hvem_er_vi_breadtxt2 {
-    grid-row: 1 / span 2;
-    grid-column: 3 / span 2;
-    padding-right: 7%;
-    padding-top: 8%;
-    font-size: 3cqw;
+    grid-row: 1 / span 3;
+    grid-column: 1 / span 3;
+    margin-left: 0%;
   }
   .hvem_er_vi_billede2 {
-    grid-row: 1 / span 2;
-    grid-column: 1 / span 2;
-    width: 85%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10%;
+    grid-row: 4 / span 1;
+    grid-column: 1 / span 3;
+    width: 100%;
   }
   .om_os_wrapper4 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin-top: 5%;
   }
   .hvem_er_vi_breadtxt3 {
-    grid-row: 1 / span 2;
-    grid-column: 1 / span 2;
-    padding-left: 7%;
-    padding-top: 10%;
-    font-size: 3cqw;
+    grid-row: 1 / span 3;
+    grid-column: 1 / span 3;
   }
   .hvem_er_vi_billede3 {
-    grid-row: 1 / span 1;
-    grid-column: 3 / span 2;
-    width: 85%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 8%;
+    grid-row: 4 / span 1;
+    grid-column: 1 / span 3;
+    width: 100%;
+    padding-left: 0%;
+    padding-top: 3%;
   }
 
   .instagram_grid {
@@ -470,5 +462,9 @@ img {
   }
   .insta_overlay:hover {
     opacity: 0.7;
+  }
+
+  .logo {
+    width: 25%;
   }
 }

@@ -16,3 +16,10 @@ links.forEach((link) => {
   });
 });
 // menu// menu// menu// menu// menu// menu// menu// menu// menu// menu// menu
+
+// video
+function restartVideo() {
+  var video = document.getElementById("minVideo");
+  video.currentTime = 0; // Nulstil videoens tid til start
+  video.play(); // Start videoen igen
+}
