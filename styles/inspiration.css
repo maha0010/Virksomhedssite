@@ -97,6 +97,15 @@
 img {
   width: 100%;
 }
+p {
+  font-size: 1.1cqw;
+}
+.und {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  width: 90%;
+}
 
 @media (max-width: 800px) {
   .inspiration_wrapper1 {
@@ -125,7 +134,4 @@ img {
   img {
     width: 100%;
   }
-}
-p {
-  font-size: 1.1cqw;
 }
