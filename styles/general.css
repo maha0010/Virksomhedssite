@@ -481,6 +481,14 @@ img {
   text-align: center;
   margin-bottom: 1%;
 }
+.instagram_tekst {
+  font-size: 3cqw;
+}
+
+.under_tilmeld_txt {
+  font-size: 3cqw;
+  padding-bottom: 2%;
+}
 
 label,
 button,
