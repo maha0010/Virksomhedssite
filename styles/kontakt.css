@@ -109,6 +109,7 @@ textarea {
   }
   h1 {
     text-align: center;
+    margin-top: 0;
   }
   main {
     margin-left: 5%;
