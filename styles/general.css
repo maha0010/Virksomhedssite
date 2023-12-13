@@ -596,7 +596,10 @@ li {
     font-size: 2cqw;
     margin-bottom: 0;
   }
-
+  h4 {
+    font-size: 2cqw;
+    margin-top: 0;
+  }
   /*logo*/
   .logo {
     width: 239%;
@@ -607,34 +610,33 @@ li {
   }
   /* skriftstørrelser*/
   h1 {
-    font-size: 1.75rem;
+    font-size: ;
   }
   h2 {
-    font-size: 0.625rem;
+    font-size: 1.5rem;
   }
   h3 {
-    font-size: 0.55rem;
+    font-size: 1.8rem;
   }
   p {
-    font-size: 0.25rem;
+    font-size: ;
   }
-  .nyhed,
-  .udsolgt,
-  .udsalg {
-    font-size: 0.175rem;
-  }
+
   container {
-    font-size: 0.25rem;
+    font-size: ;
   }
   .menu a {
-    font-size: 0.2rem;
+    font-size: ;
   }
   h4,
   ul,
   li {
-    font-size: 0.225rem;
+    font-size: ;
   }
   .instagram_tekst {
-    font-size: 0.275rem;
+    font-size: ;
+  }
+  .kontakt {
+    font-size: 2.2rem;
   }
 }
