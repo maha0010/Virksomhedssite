@@ -14,7 +14,9 @@
 
 .kontakt {
   text-align: center;
-  padding-top: 8%;
+  padding-top: 11%;
+  font-size: 3.2rem;
+  font-weight: 100;
 }
 .kontakttekst {
   margin-left: 20%;
