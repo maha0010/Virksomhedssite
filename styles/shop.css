@@ -29,10 +29,6 @@ h2 {
 #overskrift3_puder,
 #overskrift4_sari,
 #overskrift5_unika {
-  font-family: "Six Caps", sans-serif;
-  font-size: 2cqw;
-  color: #4a484b;
-  font-weight: 100;
   padding-top: 2%;
   margin-left: 7%;
 }
@@ -64,16 +60,6 @@ h2 {
   margin-right: auto;
   margin-bottom: 10%;
   font-weight: bold;
-}
-
-#toi_titel1,
-#toi_titel2,
-#toi_titel3,
-#toi_titel4,
-#toi_titel5 {
-  display: block;
-  margin-left: 10%;
-  margin-right: auto;
 }
 
 #grid_toitaske_billeder {
@@ -331,37 +317,15 @@ h2 {
 }
 
 #fremhaevet {
-  margin-right: 5%;
+  margin-right: 13%;
 }
 
 @media (max-width: 800px) {
-  #overskrift1_toitasker,
-  #overskrift2_fad,
-  #overskrift3_puder,
-  #overskrift4_sari,
-  #overskrift5_unika {
-    font-family: "Six Caps", sans-serif;
-    font-size: 4cqw;
-    color: #4a484b;
-    font-weight: 100;
-    padding-top: 2%;
-    margin-left: 7%;
-  }
-
-  /* toilettasker */
-  #grid_toitaske_billeder {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 5, 1fr;
-    margin-left: 5%;
-    margin-right: 5;
-  }
-
-  #toitaske_billede1,
-  #toitaske_billede1 img,
-  #toi_tekst1,
-  #toi_titel1 {
-    display: grid;
-    grid-row: 1 / span 1;
+  #grid_toitaske_billeder,
+  #grid_fad_billeder,
+  #grid_puder_billeder,
+  #grid_sari_billeder,
+  #grid_unika_billeder {
+    grid-template-columns: 1fr 1fr;
   }
 }

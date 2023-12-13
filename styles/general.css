@@ -50,7 +50,7 @@ nav {
   transition: color 0.3s;
   text-align: end;
   text-transform: uppercase;
-  font-size: 0.9cqw;
+  font-size: 0.8rem;
 }
 
 .menu a:hover {
@@ -90,45 +90,6 @@ nav {
 .burger {
   display: none;
 }
-@media screen and (max-width: 800px) {
-  .menu {
-    display: none;
-  }
-  .burger {
-    display: block;
-  }
-  .burger.active .line:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
-    transition: 0.2s linear;
-  }
-  .burger.active .line:nth-child(2) {
-    opacity: 0;
-    transition: 0.15s linear;
-  }
-  .burger.active .line:nth-child(3) {
-    transform: rotate(-45deg) translate(5px, -5px);
-    transition: 0.2s linear;
-  }
-  nav.active .menu {
-    display: block;
-    background-color: #fff9f9;
-    position: absolute;
-    top: 60px;
-    left: 200px;
-    width: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    z-index: 1;
-  }
-  nav.active .menu li {
-    margin: 10px 20px;
-  }
-  nav.active .menu a {
-    font-size: 3cqw;
-  }
-  .icon-container {
-    margin-right: 10%;
-  }
-}
 
 .logo_css img {
   height: 100%;
@@ -137,23 +98,26 @@ nav {
 h1 {
   font-family: "Six Caps", sans-serif;
   color: #40211a;
-  font-size: 8cqw;
+  font-size: 7rem;
 }
 h2 {
   font-family: "Six Caps", sans-serif;
   color: #40211a;
   letter-spacing: 2px;
+  font-size: 2.5rem;
 }
 h3 {
   color: #40211a;
   font-family: "Six Caps", sans-serif;
-  font-size: 2.5cqw;
+  font-size: 2.2rem;
   letter-spacing: 2px;
 }
 p {
   font-family: "Caudex", serif;
   color: #40211a;
+  font-size: 1rem;
 }
+
 body,
 footer {
   background-color: #fff9f9;
@@ -380,7 +344,162 @@ footer {
 img {
   width: 100%;
 }
+/* form-tilmeld */
+#tilmeld {
+  font-family: "Caudex", serif;
+  font-size: 1.5rem;
+  font-weight: 50;
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 1%;
+  color: #40211a;
+}
 
+#under_tilmeld {
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.under_tilmeld_txt {
+  font-size: 3cqw;
+  padding-bottom: 2%;
+}
+
+label,
+button,
+#form-tilmeld,
+input {
+  font-family: "Caudex", serif;
+}
+
+#first-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7%;
+}
+#form-tilmeld {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+button {
+  background-color: #40211a;
+  color: white;
+  padding: 8px 12px;
+  cursor: pointer;
+  border: 2px solid #40211a;
+}
+
+input {
+  padding-left: 3%;
+  padding-right: 1%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  padding: 60px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+.column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+h4,
+ul,
+li {
+  color: #40211a;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 8px;
+  font-family: "Caudex", serif;
+  font-size: 0.9rem;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icon {
+  margin-right: 20px;
+}
+
+.logo {
+  width: 100%;
+}
+.social-media,
+.payment-methods {
+  padding-top: 10%;
+}
+.abningstider,
+.cvr {
+  padding-top: 5%;
+}
+
+.social-icons img {
+  width: 150%;
+}
+.tlfnummer,
+.mail {
+  text-decoration: underline;
+}
+.paymenticons {
+  display: flex;
+}
+.paymenticons img {
+  scale: 60%;
+}
+.instagram_tekst {
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 800px) {
+  .menu {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    transition: 0.2s linear;
+  }
+  .burger.active .line:nth-child(2) {
+    opacity: 0;
+    transition: 0.15s linear;
+  }
+  .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: 0.2s linear;
+  }
+  nav.active .menu {
+    display: block;
+    background-color: #fff9f9;
+    position: absolute;
+    top: 60px;
+    left: 200px;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  nav.active .menu li {
+    margin: 10px 20px;
+  }
+  nav.active .menu a {
+    font-size: 3cqw;
+  }
+  .icon-container {
+    margin-right: 10%;
+  }
+}
 @media (max-width: 800px) {
   .instagram_grid {
     display: grid;
@@ -466,122 +585,6 @@ img {
   }
 }
 
-/* form-tilmeld */
-#tilmeld {
-  font-family: "Caudex", serif;
-  font-size: 1.5rem;
-  font-weight: 50;
-  text-align: center;
-  margin-top: 8%;
-  margin-bottom: 1%;
-  color: #40211a;
-}
-
-#under_tilmeld {
-  text-align: center;
-  margin-bottom: 1%;
-}
-.instagram_tekst {
-  font-size: 3cqw;
-}
-
-.under_tilmeld_txt {
-  font-size: 3cqw;
-  padding-bottom: 2%;
-}
-
-label,
-button,
-#form-tilmeld,
-input {
-  font-family: "Caudex", serif;
-}
-
-#first-form {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 7%;
-}
-#form-tilmeld {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-button {
-  background-color: #40211a;
-  color: white;
-  padding: 8px 12px;
-  cursor: pointer;
-  border: 2px solid #40211a;
-}
-
-input {
-  padding-left: 3%;
-  padding-right: 1%;
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-
-/* footer */
-
-footer {
-  display: flex;
-  padding: 60px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-top: 50px;
-}
-
-.column {
-  flex: 1;
-  margin-right: 20px;
-}
-
-h4,
-ul,
-li {
-  color: #40211a;
-  list-style: none;
-  padding: 0;
-  margin-bottom: 8px;
-  font-family: "Caudex", serif;
-  font-size: 1cqw;
-}
-
-.social-icons {
-  display: flex;
-}
-
-.social-icon {
-  margin-right: 20px;
-}
-
-.logo {
-  width: 100%;
-}
-.social-media,
-.payment-methods {
-  padding-top: 10%;
-}
-.abningstider,
-.cvr {
-  padding-top: 5%;
-}
-
-.social-icons img {
-  width: 150%;
-}
-.tlfnummer,
-.mail {
-  text-decoration: underline;
-}
-.paymenticons {
-  display: flex;
-}
-.paymenticons img {
-  scale: 60%;
-}
 /* footermobil */
 @media (max-width: 800px) {
   footer {
