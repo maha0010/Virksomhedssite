@@ -134,7 +134,7 @@ sari .saripuder2 img {
 }
 .lampe_billede img {
   width: 50%;
-  padding-top: 25%;
+  padding-top: 36%;
 }
 .sofa_billede img {
   width: 80%;
@@ -142,7 +142,7 @@ sari .saripuder2 img {
 }
 .fad_billede img {
   width: 70%;
-  padding-top: 20%;
+  padding-top: 30%;
 }
 .lanterne_billede img {
   width: 80%;
@@ -188,13 +188,6 @@ sari .saripuder2 img {
   font-size: 1rem;
 }
 
-@media (max-width: 800px) {
-  .grid_1_1 {
-    display: block;
-    width: 90vw;
-  }
-}
-
 label,
 button,
 #form-tilmeld,
@@ -233,4 +226,14 @@ input {
   padding-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
+}
+@media (max-width: 800px) {
+  .grid_1_1 {
+    display: block;
+  }
+
+  .nyheder,
+  .saripuder2 {
+    grid-template-columns: 1fr 1fr;
+  }
 }
