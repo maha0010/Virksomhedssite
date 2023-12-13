@@ -1,21 +1,13 @@
 .h1 {
-  font-family: "Six Caps", sans-serif;
-  font-size: 8cqw;
   text-align: center;
-  color: #40211a;
 }
 
 .h3 {
   color: white;
-  font-weight: 100;
   text-align: center;
-  font-size: 3cqw;
 }
 
 .h2 {
-  font-family: "Six Caps", sans-serif;
-  color: #40211a;
-  font-weight: 100;
   padding-top: 8%;
   margin-left: 5%;
   font-size: 2.7cqw;
@@ -24,13 +16,12 @@
 .kontakt {
   text-align: center;
   font-size: 3.2cqw;
-  margin-left: 45px;
   padding-top: 8%;
 }
 .kontakttekst {
   margin-left: 20%;
   margin-right: 20%;
-  padding-top: 30px;
+  padding-top: 3%;
   text-align: center;
   opacity: 70%;
 }
@@ -47,12 +38,12 @@
   text-transform: uppercase;
   background-color: #40211a;
   color: white;
-  padding: 4px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 30px;
-  font-family: "Caudex", serif;
-  font-size: 0.8rem;
+  padding: 7px;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin: 2%;
+  font-size: 1cqw;
+  align-items: center;
 }
 
 .kontakt_knap:hover {
@@ -143,7 +134,7 @@ sari .saripuder2 img {
 }
 .lampe_billede img {
   width: 50%;
-  padding-top: 25%;
+  padding-top: 36%;
 }
 .sofa_billede img {
   width: 80%;
@@ -151,7 +142,7 @@ sari .saripuder2 img {
 }
 .fad_billede img {
   width: 70%;
-  padding-top: 20%;
+  padding-top: 30%;
 }
 .lanterne_billede img {
   width: 80%;
@@ -197,13 +188,6 @@ sari .saripuder2 img {
   font-size: 1rem;
 }
 
-@media (max-width: 800px) {
-  .grid_1_1 {
-    display: block;
-    width: 90vw;
-  }
-}
-
 label,
 button,
 #form-tilmeld,
@@ -242,4 +226,14 @@ input {
   padding-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
+}
+@media (max-width: 800px) {
+  .grid_1_1 {
+    display: block;
+  }
+
+  .nyheder,
+  .saripuder2 {
+    grid-template-columns: 1fr 1fr;
+  }
 }
