@@ -20,6 +20,9 @@ button {
     margin-right: 10%;
   }
 }
+form {
+  padding-top: 10%;
+}
 .form1,
 .form2,
 .form3,
@@ -112,5 +115,8 @@ textarea {
   main {
     margin-left: 5%;
     margin-right: 5%;
+  }
+  form {
+    padding-top: 10%;
   }
 }

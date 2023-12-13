@@ -592,11 +592,11 @@ li {
     margin-bottom: 0;
   }
   footer li {
-    font-size: 1.8rem;
+    font-size: 0.9rem;
     margin-bottom: 0;
   }
   h4 {
-    font-size: 1.8rem;
+    font-size: 1rem;
     margin-top: 0;
   }
   /*logo*/
@@ -616,7 +616,7 @@ li {
     font-size: 1.5rem;
   }
 
-  .kontakt {
+  .kontakt2 {
     font-size: 2.2rem;
   }
 }
