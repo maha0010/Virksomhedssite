@@ -101,17 +101,15 @@ h1 {
   font-size: 7rem;
 }
 h2 {
-  font-family: "Six Caps", sans-serif;
+  font-family: "caudex", sans-serif;
   color: #40211a;
-  letter-spacing: 2px;
   font-size: 2.5rem;
   font-weight: 100;
 }
 h3 {
   color: #40211a;
-  font-family: "Six Caps", sans-serif;
+  font-family: "caudex", sans-serif;
   font-size: 2.2rem;
-  letter-spacing: 2px;
   font-weight: 100;
 }
 p {
@@ -363,7 +361,7 @@ img {
 }
 
 .under_tilmeld_txt {
-  font-size: 3cqw;
+  font-size: 1.1rem;
   padding-bottom: 2%;
 }
 
@@ -585,10 +583,7 @@ li {
     width: 95vw;
     margin: 0 auto;
   }
-}
-
-/* footermobil */
-@media (max-width: 800px) {
+  /*footer mobil*/
   footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -601,10 +596,8 @@ li {
     font-size: 2cqw;
     margin-bottom: 0;
   }
-  h4 {
-    font-size: 2cqw;
-    margin-top: 0;
-  }
+
+  /*logo*/
   .logo {
     width: 239%;
   }
@@ -612,11 +605,36 @@ li {
     width: 60%;
     margin-top: 10%;
   }
-
+  /* skriftstørrelser*/
   h1 {
-    font-size: 20cqw;
+    font-size: 1.75rem;
   }
   h2 {
-    font-size: 11cqw;
+    font-size: 0.625rem;
+  }
+  h3 {
+    font-size: 0.55rem;
+  }
+  p {
+    font-size: 0.25rem;
+  }
+  .nyhed,
+  .udsolgt,
+  .udsalg {
+    font-size: 0.175rem;
+  }
+  container {
+    font-size: 0.25rem;
+  }
+  .menu a {
+    font-size: 0.2rem;
+  }
+  h4,
+  ul,
+  li {
+    font-size: 0.225rem;
+  }
+  .instagram_tekst {
+    font-size: 0.275rem;
   }
 }
