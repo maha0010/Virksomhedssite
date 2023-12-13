@@ -5,6 +5,11 @@
 .h3 {
   color: white;
   text-align: center;
+  text-shadow: 2px 3px 4px rgba(82, 48, 30, 0.891);
+  font-family: "caudex";
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 0cm;
 }
 
 .h2 {
@@ -14,7 +19,7 @@
 
 .kontakt {
   text-align: center;
-  padding-top: 11%;
+  padding-top: 10%;
   font-size: 3.2rem;
   font-weight: 100;
 }
