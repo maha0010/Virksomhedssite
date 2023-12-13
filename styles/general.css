@@ -593,11 +593,11 @@ li {
     margin-bottom: 0;
   }
   footer li {
-    font-size: 2cqw;
+    font-size: 1.8rem;
     margin-bottom: 0;
   }
   h4 {
-    font-size: 2cqw;
+    font-size: 1.8rem;
     margin-top: 0;
   }
   /*logo*/
@@ -609,33 +609,14 @@ li {
     margin-top: 10%;
   }
   /* skriftstørrelser*/
-  h1 {
-    font-size: ;
-  }
+
   h2 {
     font-size: 1.5rem;
   }
   h3 {
-    font-size: 1.8rem;
-  }
-  p {
-    font-size: ;
+    font-size: 1.5rem;
   }
 
-  container {
-    font-size: ;
-  }
-  .menu a {
-    font-size: ;
-  }
-  h4,
-  ul,
-  li {
-    font-size: ;
-  }
-  .instagram_tekst {
-    font-size: ;
-  }
   .kontakt {
     font-size: 2.2rem;
   }
